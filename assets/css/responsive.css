@@ -184,8 +184,11 @@
    .stats__title, .services__title, .projects__title, .stats__title, .reviews__title, .clients__title, .news__title, .contact__title{
       font-size: 4rem;
    }
+   .banner__content{
+      padding: 0;
+   }
    .layout__banner{
-      padding-left: 0.5rem;
+      padding-left: 3rem;
    }
    .stats__description{
       width: 80%;
@@ -249,43 +252,41 @@
 
 
 
+/*
+Guia para fits destock
 
-/* Estilo base: móviles pequeños */
 .container {
    padding: 10px;
 }
 
-/* Móviles grandes */
 @media (min-width: 576px) {
    .container {
       padding: 15px;
    }
    }
 
-   /* Tablets */
    @media (min-width: 768px) {
    .container {
       padding: 20px;
    }
    }
 
-   /* Laptops */
    @media (min-width: 992px) {
    .container {
       padding: 25px;
    }
    }
 
-   /* Escritorios grandes */
    @media (min-width: 1200px) {
    .container {
       padding: 30px;
    }
    }
 
-   /* Monitores grandes */
    @media (min-width: 1600px) {
    .container {
       padding: 40px;
    }
 }
+
+*/
