@@ -116,12 +116,14 @@
    .layout {
       min-width: 500px;
    }
-
+   .layout__banner{
+      padding-left: 2rem;
+   }
    .banner__content{
       width: 100%;
    }
    .banner__title{
-      font-size: 5.5rem;
+      font-size: 3rem;
       line-height: 5.5rem;
    }
    .shapes--shape1 {
@@ -176,8 +178,24 @@
    html {
       font-size: 6.5px;
    }
+   .navbar__link-light{
+      width: 150px;
+   }
    .stats__title, .services__title, .projects__title, .stats__title, .reviews__title, .clients__title, .news__title, .contact__title{
       font-size: 4rem;
+   }
+   .layout__banner{
+      padding-left: 0.5rem;
+   }
+   .stats__description{
+      width: 80%;
+   }
+   .banner__title{
+      font-size: 4rem;
+      line-height: 5rem;
+   }
+   .shapes--shape7 {
+      width: 50%;
    }
    .stats__progress{
       flex-direction: column;
@@ -223,6 +241,9 @@
    .thumb--mobile{
       bottom: 0;
       right: 0%;
+    }
+    .layout__footer{
+      margin-top: 15rem;
     }
 }
 
