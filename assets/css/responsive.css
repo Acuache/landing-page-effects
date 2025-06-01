@@ -1,0 +1,270 @@
+
+/* Escritorios grandes */
+@media (max-width: 1200px) {
+   .layout {
+      min-width: 1000px;
+   }
+   .layout__banner{
+      padding-left: 5.5rem;
+   }
+   .banner__content{
+      width: 80%;
+   }
+   .shapes--shape1 {
+      width: 550px;;
+   }
+   .shapes--shape2{
+      width: 600px;
+   }
+   .services__service {
+      padding: 5rem 3rem;
+   }
+   .stats__progress {
+      gap: 1.5rem;
+    }
+    .stats__stat{
+      flex-basis: calc(25% - 3rem);
+    }
+   /* * {
+      outline: 1px solid red;
+   } */
+}
+/* Escritorios grandes */
+@media (max-width: 1000px) {
+   html {
+      font-size: 8.5px;
+   }
+   .nav__item{
+      position: relative;
+      margin: 0 1.4rem;
+   }
+   .layout {
+      min-width: 700px;
+   }
+   .layout__banner{
+      padding-left: 4.5rem;
+      min-height: 50rem;
+   }
+   .banner__content{
+      width: 70%;
+   }
+   .shapes--shape1 {
+      width: 350px;;
+   }
+   .shapes--shape2{
+      width: 400px;
+   }
+   .services__service {
+      padding: 4rem 2rem;
+   }
+   .services__list{
+      flex-direction: column;
+   }
+   .services__service {
+      width: 80%;
+      margin: auto;
+   }
+   .projects__categories{
+      gap: 4rem;
+   }
+   .stats__progress {
+      gap: 5rem;
+   }
+   .stats__stat {
+      flex-basis: calc(50% - 10rem);
+   }
+   .logos__item {
+      flex-basis: calc(50% - 4rem);
+   }
+   .news__list{
+      flex-direction: column;
+   }
+   .news__new{
+      padding: 5rem 0;
+   }
+   .new--1 {
+      border-right: none;
+   }
+   .contact__thumb {
+      width: 300px;
+   }
+   .thumb-chat{
+      left: 30%;
+      width: 500px;
+   }
+   .thumb--laptop{
+      left: 0;
+   }
+   .thumb--mobile{
+      bottom: 0;
+      right: 0%;
+    }
+   .contact__img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+   }
+   
+}
+
+
+@media (max-width: 760px) {
+   html {
+      font-size: 7.5px;
+   }
+
+   .layout {
+      min-width: 500px;
+   }
+
+   .banner__content{
+      width: 100%;
+   }
+   .banner__title{
+      font-size: 5.5rem;
+      line-height: 5.5rem;
+   }
+   .shapes--shape1 {
+      width: 250px;;
+   }
+   .shapes--shape2{
+      width: 300px;
+   }
+   .shapes--shape7{
+      width: 250px;
+   }
+   .projects__categories{
+      gap: 2.5rem;
+   }
+   .stats__progress {
+      gap: 2rem;
+   }
+   .stats__stat {
+      flex-basis: calc(50% - 4rem);
+   }
+   .review__container{
+      flex-direction: column;
+      gap: 5rem;
+   }
+   .reviews__review{
+      border: 1px solid var(--color-borders);
+      padding: 1rem;
+      border-radius: 10px;
+   }
+   .news__description{
+      text-align: start;
+   }
+   .footer__main{
+      flex-direction: column;
+   }
+   .footer__left{
+      padding: 0;
+      border: none;
+      margin-bottom: 5rem;
+   }
+   .footer__fright{
+      padding: 0;
+   }
+   .contact__images{
+      margin-top: 15rem;
+   }
+   .contact__thumb {
+      width: 250px;
+   }
+}
+@media (max-width: 560px) {
+   html {
+      font-size: 6.5px;
+   }
+   .stats__title, .services__title, .projects__title, .stats__title, .reviews__title, .clients__title, .news__title, .contact__title{
+      font-size: 4rem;
+   }
+   .stats__progress{
+      flex-direction: column;
+      gap: 5rem;
+   }
+   .stats__stat{
+      width: 80%;
+   }
+   .layout {
+      min-width: 200px;
+   }
+   .nav__list{
+      display: none;
+   }
+   .services__service {
+      width: 100%;
+   }
+   .contact__images{
+      margin-top: 5rem;
+   }
+   .contact__thumb {
+      width: 200px;
+   }
+   .footer__flinks{
+      gap: 1rem;
+   }
+   .news__new{
+      flex-direction: column;
+   }
+   .news__description {
+      margin-bottom: 2rem;
+   }
+   .contact__thumb {
+      width: 150px;
+   }
+   .thumb-chat{
+      left: 23%;
+      width: 300px;
+   }
+   .thumb--laptop{
+      left: 0;
+   }
+   .thumb--mobile{
+      bottom: 0;
+      right: 0%;
+    }
+}
+
+
+
+
+/* Estilo base: móviles pequeños */
+.container {
+   padding: 10px;
+}
+
+/* Móviles grandes */
+@media (min-width: 576px) {
+   .container {
+      padding: 15px;
+   }
+   }
+
+   /* Tablets */
+   @media (min-width: 768px) {
+   .container {
+      padding: 20px;
+   }
+   }
+
+   /* Laptops */
+   @media (min-width: 992px) {
+   .container {
+      padding: 25px;
+   }
+   }
+
+   /* Escritorios grandes */
+   @media (min-width: 1200px) {
+   .container {
+      padding: 30px;
+   }
+   }
+
+   /* Monitores grandes */
+   @media (min-width: 1600px) {
+   .container {
+      padding: 40px;
+   }
+}
