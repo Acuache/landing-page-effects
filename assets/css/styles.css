@@ -36,6 +36,10 @@ a {
 }
 
 /* Evitar el focus en mobile*/
+button{
+  background: none;
+  border: none;
+}
 button,
 a {
   outline: none;
