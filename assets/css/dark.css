@@ -1,0 +1,94 @@
+/* Variables */
+:root {
+    --mx-width: 1320px;
+  
+    --color-text-body: #D3D3D4;
+    --color-primary: #5956e9;  /*VER DESPUES*/
+    --color-secondary: #D3D3D4;
+    --color-banner: #27272E;
+    --color-text-btn: #fff;
+    --color-bg-btn: #2522BA;
+    --color-subtitle: #c75c6f;
+    --color-title: #D3D3D4;
+    --color-bg-services: #27272E;
+    --color-bg-projects: #292930;
+    --color-bg-dark: #27272E;
+    --color-hover-dark: #303035;
+    --color-text-description: #99A1AA;
+    --color-borders: #393940;
+  }
+body {
+    background-color: #212121;
+}
+.banner__btn {
+    background: var(--color-primary);
+    color: var(--color-text-btn);
+}
+.layout__menu{
+    background-color: var(--color-banner);
+}
+.project__content{
+    color: var(--color-banner);
+}
+.reviews__title {
+    color: var(--color-secondary);
+}
+.reviews__description{
+    color: var(--color-secondary);
+}
+.autor__name{
+    color: white;
+}
+.news__title {
+    color: var(--color-secondary);
+}
+.layout__contact{
+    background-color: var(--color-banner);
+}
+
+.layout__footer{
+    background: #212121;
+}
+.social__img:hover{
+    color: white;
+}
+.contact__images::before {
+    background-color: var(--color-bg-projects);
+}
+.mew__link{
+    color: white;
+}
+
+/*Efectos de hover*/
+.nav__submenu {
+    background-color: var(--color-banner);
+    color: var(--color-text-btn);
+}
+.services__service {
+    background-color: var(--color-banner);
+}
+
+.contact__btn {
+    background: #ffffff; /* fondo blanco */
+    color: #111111; /* texto oscuro */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* borde claro */
+    box-shadow:
+      0 4px 0 rgba(255, 255, 255, 0.2),       /* sombra directa clara */
+      0 6px 12px rgba(255, 255, 255, 0.1);    /* sombra difusa clara */
+}
+
+.contact__btn:hover {
+    transform: translateY(3.5px);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.2),
+        0 3px 6px rgba(255, 255, 255, 0.1);
+}
+.btn__icon__bars{
+    color: black;
+}
+.menu-mobile {
+    background: var(--color-banner);
+}
+.menu-mobile__header{
+    border-bottom: 1px solid white;
+}

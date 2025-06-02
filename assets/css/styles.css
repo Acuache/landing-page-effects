@@ -1035,8 +1035,9 @@ a:focus {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 7.7rem;
-  text-align: justify;
+  text-align: center;
 }
+
 .news__list{
   display: flex;
 }
@@ -1080,7 +1081,6 @@ a:focus {
   font-weight: 600;
 }
 .news__description{
-  text-align: start;
   margin-top: 1rem;
   font-size: 1.7rem;
 }
@@ -1566,8 +1566,9 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 15px 0;
   color: white;
   cursor: pointer;
   font-size: 15px;
+  transition: all 300ms linear;
 }
