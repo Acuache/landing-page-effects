@@ -35,6 +35,18 @@ a {
   color: inherit
 }
 
+/* Evitar el focus en mobile*/
+button,
+a {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}
+
 /* Estructura (layout) */
 .layout {
   width: 100%;
