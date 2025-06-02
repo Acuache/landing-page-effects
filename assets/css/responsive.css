@@ -1,5 +1,5 @@
 
-/* Escritorios grandes */
+/* Hasta 1200px (pantallas grandes y tablets grandes) */
 @media (max-width: 1200px) {
    .layout {
       min-width: 1000px;
@@ -25,18 +25,24 @@
     .stats__stat{
       flex-basis: calc(25% - 3rem);
     }
+    .footer__widget{
+      flex-basis: 30%;
+   }
    /* * {
       outline: 1px solid red;
    } */
 }
-/* Escritorios grandes */
+/* Hasta 1000px (tablets medianas) */
 @media (max-width: 1000px) {
    html {
       font-size: 8.5px;
    }
    .nav__item{
       position: relative;
-      margin: 0 1.4rem;
+      margin: 0 0.8rem;
+   }
+   .navbar__link-light{
+      width: 150px;
    }
    .layout {
       min-width: 700px;
@@ -104,10 +110,12 @@
       height: 100%;
       object-fit: contain;
    }
-   
+   .footer__widget{
+      flex-basis: 30%;
+   }
 }
 
-
+/* Hasta 760px (tablets pequeñas / móviles grandes) */
 @media (max-width: 760px) {
    html {
       font-size: 7.5px;
@@ -173,7 +181,11 @@
    .contact__thumb {
       width: 250px;
    }
+   .footer__widget{
+      flex-basis: 30%;
+   }
 }
+/* Hasta 560px (móviles pequeños) */
 @media (max-width: 560px) {
    html {
       font-size: 6.5px;
@@ -194,7 +206,7 @@
       width: 80%;
    }
    .banner__title{
-      font-size: 4rem;
+      font-size: 5.2rem;
       line-height: 5rem;
    }
    .shapes--shape7 {
@@ -248,6 +260,37 @@
     .layout__footer{
       margin-top: 15rem;
     }
+    .new__container-img{
+      flex-basis: 20%;
+    }
+   .new__title{
+      font-size: 3rem;
+   }
+   .news__description {
+      font-size: 2rem;
+   }
+   .new__description, .new__mocre{
+      font-size: 1.7rem;
+   }
+   .news__description{
+      text-align: center;
+   }
+   .footer__widget{
+      flex-basis: 30%;
+   }
+
+   /* Para el Boton */
+   .navbar__mobile-btn{
+      display: block;
+   }
+
+   .menu-mobile{
+      width: 44rem; /*300px aprox*/
+      font-size: 2.8rem;
+   }
+   .mobile__submenu{
+      font-size: 2.5rem;
+   }
 }
 
 

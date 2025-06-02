@@ -65,7 +65,9 @@ a {
 }
 .nav__title{
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 500;
   color: var(--color-text-body);
   transition: all 100ms linear;
@@ -1057,7 +1059,7 @@ a {
   font-weight: 600;
 }
 .news__description{
-  text-align: center;
+  text-align: start;
   margin-top: 1rem;
   font-size: 1.7rem;
 }
@@ -1411,4 +1413,118 @@ a {
 .footer__flinks{
   display: flex;
   gap: 4rem;
+}
+.footer__widget{
+  flex-basis: 30%;
+}
+
+.navbar__mobile-btn{
+  display: none;
+}
+
+
+
+/* Estilos para navegación responsive */
+.btn__icon__bars{
+  color: var(--color-secondary);
+  font-size: 2.5rem;
+  width: 4rem;
+  height: 4rem;
+  background: var(--color-text-body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.bg__menu-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 8;
+  transition: all 300ms ease;
+}
+
+.menu-mobile {
+  position: fixed;
+  background: var(--color-secondary);
+  z-index: 9;
+  font-size: 1.9rem;
+  width: 30rem;
+  height: 100%;
+  padding: 3rem 2rem;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0px 55px -35px rgba(0,0,0,0.5);
+  overflow-y: auto;
+  transition: transform 300ms ease;
+}
+
+.menu-mobile__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+}
+.close__icon{
+  cursor: pointer;
+}
+.menu-mobile__container-logo{
+  width: 120px;
+}
+.menu-mobile__logo{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menu-mobile__body{
+  margin-top: 1rem;
+}
+.mobile__item {
+  position: relative;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-borders);
+}
+.mobile__item:first-child {
+  border-top: none;
+}
+.mobile__item:last-child {
+  border-bottom: 1px solid var(--color-borders);
+}
+.mobile__title{
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile__icon{
+  color: var(--color-text-body);
+}
+.mobile__submenu {
+  display: none;
+  position: relative;
+  top: 5px;
+  left: 15px;
+  font-size: 1.6rem;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.mobile__icon {
+  transition: transform 300ms ease;
+}
+
+.mobile__title {
+  cursor: pointer;
+}
+.mobile__nav{
+  overflow: hidden;
 }

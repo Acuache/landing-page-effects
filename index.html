@@ -12,8 +12,103 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="assets/js/menu__mobile.js" defer></script>
 </head>
 <body>
+    <!-- Menu Navegación responsive -->
+    <div class="bg__menu-mobile">
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <img class="menu-mobile__logo" src="assets/img/logo1.png" alt="Logo Acuache">
+            </div>
+            <div class="menu-mobile__close ">
+                <i class="close__icon fa-solid fa-x"></i>
+            </div>
+        </header>
+        <div class="menu-mobile__body">
+            <!-- Navegación -->
+            <nav class="mobile__nav">
+                <ul class="mobile__list">
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">Inicio</a>
+                    </li>
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">
+                            <p>Servicios</p>
+                            <i class="mobile__icon fa-solid fa-angle-down"></i>
+                        </a>
+                        <!-- Submenú -->
+                        <ul class="mobile__submenu">
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Diseño Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo de apps</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Consultoría</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">
+                            <p>Portafolio</p>
+                            <i class="mobile__icon fa-solid fa-angle-down"></i>
+                        </a>
+                        <!-- Submenú -->
+                        <ul class="mobile__submenu">
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Diseño Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo de apps</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Consultoría</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">
+                            <p>Blog</p>
+                            <i class="mobile__icon fa-solid fa-angle-down"></i>
+                        </a>
+                        <!-- Submenú -->
+                        <ul class="mobile__submenu">
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Diseño Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo Web</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Desarrollo de apps</a>
+                            </li>
+                            <li class="submobile__item">
+                                <a class="submobile__title" href="#">Consultoría</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">Equipo</a>
+                    </li>
+                    <li class="mobile__item">
+                        <a class="mobile__title" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+
     <div class="layout">
         <!-- Menú -->
         <section class="layout__menu">
@@ -101,6 +196,11 @@
                         </li>
                     </ul>
                 </nav>
+
+                <!-- Boton de Menu en Mobile -->
+                <div class="navbar__mobile-btn">
+                    <i class="btn__icon__bars fa-solid fa-bars"></i>
+                </div>
             </header>
         </section>
 
@@ -523,7 +623,7 @@
                             <h3 class="new__title">
                                 <a class="mew__link" href="#">Como maquetar una web con HTNL5 y CSS3</a>
                             </h3>
-                            <p class="news__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs espectaculares?</p>
+                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs espectaculares?</p>
                             <a class="new__mocre" href="#">
                                 Leer más
                                 <i class="new__icon fa-solid fa-chevron-right"></i>
@@ -538,7 +638,7 @@
                             <h3 class="new__title">
                                 <a class="mew__link" href="#">Como maquetar una web con HTNL5 y CSS3</a>
                             </h3>
-                            <p class="news__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs espectaculares?</p>
+                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs espectaculares?</p>
                             <a class="new__mocre" href="#">
                                 <p>Leer más</p>
                                 <i class="new__icon fa-solid fa-chevron-right"></i>
