@@ -1441,6 +1441,7 @@ a {
 
 
 .bg__menu-mobile {
+  visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -1453,6 +1454,7 @@ a {
 }
 
 .menu-mobile {
+  visibility: hidden;
   position: fixed;
   background: var(--color-secondary);
   z-index: 9;

@@ -4,14 +4,6 @@ window.addEventListener("DOMContentLoaded", () => {
   const bg__menu = document.querySelector(".bg__menu-mobile");
   const body__mobile = document.querySelector(".menu-mobile");
 
-  //   // Si estamos en pantallas grandes
-  //   if (window.innerWidth > 560) {
-  //     body__mobile.style.transform = "translateX(-100%)";
-  //     body__mobile.style.visibility = "hidden";
-  //     bg__menu.style.visibility = "hidden";
-  //     bg__menu.style.opacity = "0";
-  //   }
-
   // Ocultar menú inicialmente
   body__mobile.style.transform = "translateX(-100%)";
   body__mobile.style.visibility = "hidden";
